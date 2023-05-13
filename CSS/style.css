@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav_bar */
+
+
+/* task1 */
+
+
+/* ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
+@media (max-width: 1277px) {
+    .nav_li {
+        display: none;
+    }
+    .nav_li_falldown {
+        display: block;
+    }
+}
+
+@media (min-width: 1278px) {
+    .nav_li_falldown {
+        display: none;
+    }
+}
+
+
+/* 商标显示 */
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 13%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 导航栏（常规） */
+
+#nav_bar {
+    background-color: #333;
+    height: 70px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_li {
+    height: 100%;
+    border-left: 30%;
+    width: 15%;
+    text-align: center;
+    top: 10%;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 50px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+
+/* 下拉式导航栏 */
+
+.nav_li_falldown {
+    float: left;
+    overflow: hidden;
+}
